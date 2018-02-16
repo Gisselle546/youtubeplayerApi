@@ -16,7 +16,7 @@ state={
 }
 
   loadfunction=()=>{
-    const key ='AIzaSyCslZxwr0QJrF8NSYB0sHVPL3oyf0IqZl4';
+    const key ='';
     var requestUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${this.props.url}&type=video&key=${key}`;
     axios.get(requestUrl)
           .then(videos=>{
